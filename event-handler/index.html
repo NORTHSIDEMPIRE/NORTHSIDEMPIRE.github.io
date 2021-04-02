@@ -17,7 +17,13 @@
     <br>
 
 
-    
+    <a onclick="manageLink()" id="linkMetallica" href="http://www.metallica.com" target="_blank" rel="noopener noreferrer"></a>
+    <script>
+        function manageLink(){
+            event.preventDefault();
+            alert("cannot go to link!");
+        }
+    </script>
     <script src="javascript/index.js"></script>
 </body>
 </html>
