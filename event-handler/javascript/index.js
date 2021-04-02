@@ -1,5 +1,5 @@
 function transformUppercase(_val){
-return _val.toUppercase();
+return _val.toUpperCase();
 
 }
 
