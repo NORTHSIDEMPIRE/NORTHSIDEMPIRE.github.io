@@ -3,7 +3,7 @@ return _val.toUppercase();
 
 }
 
-let elnamaPengguna = document.getElementById(namaPengguna);      
+let elnamaPengguna = document.getElementById("namaPengguna");      
 elnamaPengguna.addEventListener("keyup", function(){
     elnamaPengguna.value = transformUppercase(elnamaPengguna.value);
 });
